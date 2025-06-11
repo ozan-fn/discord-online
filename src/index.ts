@@ -16,7 +16,7 @@ client.on("ready", async () => {
 
         const presence = new RichPresence(client)
             .setApplicationId("1113348957070958662")
-            .setType("PLAYING" as any)
+            .setType("PLAYING")
             .setName("Visual Studio Code")
             .setDetails("Editing index.ts")
             .setState("Workspace: Nothing!")
