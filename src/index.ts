@@ -21,7 +21,7 @@ client.on("ready", async () => {
             .setDetails("Editing index.ts")
             .setState("Workspace: Nothing!")
             .setAssetsSmallText("Iwak")
-            .setStartTimestamp(new Date(1507665886 * 1000))
+            .setStartTimestamp(1507665886)
             .setAssetsLargeImage(externalAsset[0]?.external_asset_path)
             .setAssetsLargeText("Visual Studio Code")
             .setPlatform("desktop");
