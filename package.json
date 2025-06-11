@@ -10,7 +10,9 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@types/express": "^5.0.3",
     "@xhayper/discord-rpc": "^1.2.2",
-    "discord.js-selfbot-v13": "^3.6.1"
+    "discord.js-selfbot-v13": "^3.6.1",
+    "express": "^5.1.0"
   }
 }
