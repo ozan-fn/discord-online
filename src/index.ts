@@ -17,13 +17,12 @@ client.on("ready", async () => {
         const presence = new RichPresence(client)
             .setApplicationId("1113348957070958662")
             .setType("PLAYING")
-            .setName("Visual Studio Code")
-            .setDetails("Editing index.ts")
-            .setState("Workspace: Nothing!")
-            .setAssetsSmallText("Iwak")
+            .setName("💻 Visual Studio Code")
+            .setDetails("📝 Editing: index.ts")
+            .setState("📂 Workspace: Nothing!")
             .setStartTimestamp(1507665886)
             .setAssetsLargeImage(externalAsset[0]?.external_asset_path)
-            .setAssetsLargeText("Visual Studio Code")
+            .setAssetsLargeText("Raphiel Ainsworth Shiraha")
             .setPlatform("desktop");
 
         client.user.setPresence({ activities: [presence] });
